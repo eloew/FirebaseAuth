@@ -8,6 +8,7 @@
  //What is the method can be used to send an event from native module to JS？
  //https://github.com/facebook/react-native/issues/8714
 
+
 import React, { Component } from 'react';
 import {
   Platform, StyleSheet, Text, TextInput, View,NativeModules,NativeEventEmitter,
