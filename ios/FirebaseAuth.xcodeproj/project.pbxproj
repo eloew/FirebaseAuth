@@ -32,6 +32,7 @@
 		1A701C5420E9521D00DF056F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A701C5320E9521C00DF056F /* StoreKit.framework */; };
 		1A701C5B20E953D200DF056F /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A701C5920E953D200DF056F /* FirebaseAuth.framework */; };
 		1A701C5C20E953D200DF056F /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A701C5A20E953D200DF056F /* GTMSessionFetcher.framework */; };
+		1A74332620EF8CDB0080804A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A74330020EF8CDB0080804A /* GoogleService-Info.plist */; };
 		1AEA4A7520E65988009EF062 /* FirebaseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA4A7420E65988009EF062 /* FirebaseUtil.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -358,6 +359,7 @@
 		1A701C5920E953D200DF056F /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
 		1A701C5A20E953D200DF056F /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
 		1A701C5D20E9562200DF056F /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		1A74330020EF8CDB0080804A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "FirebaseAuth/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1AEA4A7320E65988009EF062 /* FirebaseUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FirebaseUtil.h; path = FirebaseAuth/FirebaseUtil.h; sourceTree = "<group>"; };
 		1AEA4A7420E65988009EF062 /* FirebaseUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FirebaseUtil.m; path = FirebaseAuth/FirebaseUtil.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* FirebaseAuth-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FirebaseAuth-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -521,6 +523,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				1A74330020EF8CDB0080804A /* GoogleService-Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				1A701C5D20E9562200DF056F /* Firebase.h */,
@@ -1097,6 +1100,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				1A74332620EF8CDB0080804A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
